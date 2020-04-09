@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    background: #eee;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Comic Neue', cursive;
+}
+
+header {
+    height: 5rem;
+    padding: 2rem;
+}
+
+section.order-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.order {
+    background: white;
+    box-shadow: 0 0 2rem rgba(0, 0, 0, .2);
+}
+
+.order h2 {
+    border-bottom: 1px dotted rgba(0, 0, 0, .2);
+    background: rgba(0, 0, 0, .05);
+    padding: 1rem;
+    margin: 0;
+    text-align: center;
+}
+
+.order .pizza {
+    margin: 0 1rem;
+    border-bottom: 1px dotted rgba(0, 0, 0, .1);
+}
+
+.order .pizza h3 {
+    margin: 0;
+    padding: .5rem 0 0 0;
+}
+
+.order .pizza h4 {
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, .8);
+}
+
+.order .pizza ul {
+    color: rgba(0, 0, 0, .6);
+}
